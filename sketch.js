@@ -8,6 +8,7 @@ let papers = 5;
 let scissors = 5;
 
 function preload() {
+  // TODO works with gh pages :)
   // img = loadImage('assets/scroll.png');
 }
 
@@ -40,7 +41,7 @@ class Contestant {
     this.x = random(0 + 20, canvasWidth - 20);
     this.y = random(0 + 20, canvasHeight - 20);
     this.id = id;
-    this.isAlive = true;
+    // this.isAlive = true;
   }
   
   closestPrey(enemyId) {
